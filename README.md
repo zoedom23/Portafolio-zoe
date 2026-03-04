@@ -29,4 +29,4 @@ Seguir desarrollando proyectos que me permitan mejorar mis habilidades como desa
 ## Contacto
 Email: zoedominguez13@gmail.com  
 GitHub: https://github.com/zoedom23
-LinkedIn: linkedin.com/in/zoe-dominguez
+LinkedIn: https://www.linkedin.com/in/zoe-dom%C3%ADnguez-96b0602ab/
