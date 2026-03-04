@@ -15,6 +15,12 @@ Trabajo con HTML, CSS y JavaScript y continúo aprendiendo nuevas herramientas d
 - GitHub
 
 ## Proyectos
+En este portafolio se pueden encontrar proyectos como:
+
+- Página de presentación personal
+- Calculadora con JavaScript
+- Lista de tareas (To Do List)
+- Tienda Oline - Valhalla Indumenteria
 
 ### Tienda Online - Valhalla Indumentaria
 Proyecto de tienda online donde se muestran productos de indumentaria.  
