@@ -20,14 +20,14 @@ En este portafolio se pueden encontrar proyectos como:
 - Página de presentación personal
 - Calculadora con JavaScript
 - Lista de tareas (To Do List)
-- Tienda Oline - Valhalla Indumenteria
+- Tienda Oline - Valhalla Indumenteria Practica
 
 ### Tienda Online - Valhalla Indumentaria
 Proyecto de tienda online donde se muestran productos de indumentaria.  
 Incluye estructura web, diseño con CSS y organización del contenido para un e-commerce.
 
 Repositorio del proyecto:  
-https://github.com/zoedom23/ValhallaIndumenteria-proyecto
+https://github.com/zoedom23/ValhallaIndumenteria-practica
 
 ## Objetivo
 Seguir desarrollando proyectos que me permitan mejorar mis habilidades como desarrolladora web y adquirir experiencia profesional.
