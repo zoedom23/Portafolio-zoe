@@ -1,61 +1,184 @@
+
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio profesional de Zoe Domínguez, Técnica en Programación. Proyectos de desarrollo web con HTML, CSS y JavaScript.">
+
+    <meta name="description"
+        content="Portfolio de Zoe Domínguez, Técnica en Programación y desarrolladora web Junior. Proyectos de HTML, CSS y JavaScript.">
+
     <title>Zoe Domínguez | Junior Frontend Developer</title>
+
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <h1>Zoe Dominguez</h1>
-        <p>Tecnica en Programacion</p>
-    </header>
 
-    <section class="sobre-mi">
-        <h2>Sobre mi</h2>
-        <p>
-            Soy técnica en programación con conocimientos en HTML, CSS y JavaScript.
-            Me interesa desarrollarme en el área IT y seguir aprendiendo nuevas tecnologías.
-        </p>
-    </section>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <a href="#inicio" class="logo">ZD.</a>
 
-    <section class="proyectos">
-        <h2>Proyectos</h2>
-        <div class="proyecto">
-            <h3>Licuadora</h3>
-            <p>Aplicación para simular el funcionamiento de una licuadora.</p>
-        </div>
-        <div class="proyecto">
-            <h3>Juego de Adivina el Número</h3>
-            <p>Aplicación interactiva para adivinar un número secreto.</p>
-        </div>
-        <div class="proyecto">
-            <h3>Calculadora</h3>
-            <p>Aplicación simple hecha con JavaScript.</p>
-        </div>
-        <div class="proyecto">
-            <h3>Lista de tareas</h3>
-            <p>Proyecto para agregar y eliminar tareas.</p>
-        </div>
-    </section>
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#tecnologias">Tecnologías</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#formacion">Formación</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
 
-    <section class="tecnologías">
-        <h2>Tecnologias</h2>
-        <p>HTML | CSS | JavaScript | Git | GitHub</p>
-    </section>
+    <main>
 
-    <section class="contacto">
-        <h2>Contacto</h2>
-        <p>Email: zoedominguez13@gmail.com</p>
-        <p>GitHub: github.com/zoedom23</p>
-    </section>
+        <!-- Presentación -->
+        <header id="inicio" class="hero">
+            <p class="saludo">Hola, soy</p>
 
+            <h1>Zoe Domínguez</h1>
+
+            <h2>Técnica en Programación | Junior Frontend Developer</h2>
+
+            <p>
+                Me interesa el desarrollo web y la tecnología.
+                Actualmente estoy fortaleciendo mis conocimientos
+                en HTML, CSS y JavaScript mediante proyectos personales.
+            </p>
+
+            <a href="#proyectos" class="btn">
+                Ver mis proyectos
+            </a>
+        </header>
+
+        <!-- Sobre mí -->
+        <section id="sobre-mi" class="sobre-mi">
+            <h2>Sobre mí</h2>
+
+            <p>
+                Soy Técnica en Programación, interesada en el desarrollo
+                de software y las nuevas tecnologías.
+
+                Me considero una persona responsable, organizada y
+                comprometida con el aprendizaje continuo.
+
+                Actualmente busco mi primera oportunidad profesional
+                en el área IT, especialmente en desarrollo Frontend.
+            </p>
+        </section>
+
+        <!-- Tecnologías -->
+        <section id="tecnologias" class="tecnologias">
+            <h2>Tecnologías y herramientas</h2>
+
+            <div class="lista-tecnologias">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Git</span>
+                <span>GitHub</span>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section id="proyectos" class="proyectos">
+            <h2>Mis proyectos</h2>
+
+            <div class="contenedor-proyectos">
+
+                <article class="proyecto">
+                    <h3>Licuadora JS</h3>
+
+                    <p>
+                        Aplicación interactiva que simula el
+                        funcionamiento de una licuadora.
+                    </p>
+
+                    <p class="stack">HTML · CSS · JavaScript</p>
+                </article>
+
+                <article class="proyecto">
+                    <h3>Adivina el número</h3>
+
+                    <p>
+                        Juego interactivo en el que el usuario
+                        debe descubrir un número secreto.
+                    </p>
+
+                    <p class="stack">HTML · CSS · JavaScript</p>
+                </article>
+
+                <article class="proyecto">
+                    <h3>Calculadora JS</h3>
+
+                    <p>
+                        Calculadora web desarrollada para practicar
+                        operaciones y lógica con JavaScript.
+                    </p>
+
+                    <p class="stack">HTML · CSS · JavaScript</p>
+                </article>
+
+                <article class="proyecto">
+                    <h3>To Do List</h3>
+
+                    <p>
+                        Aplicación para agregar, organizar
+                        y eliminar tareas.
+                    </p>
+
+                    <p class="stack">HTML · CSS · JavaScript</p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Formación -->
+        <section id="formacion" class="formacion">
+            <h2>Formación académica</h2>
+
+            <article>
+                <h3>Técnica en Programación</h3>
+
+                <p>Teclab Instituto Técnico Superior</p>
+
+                <p>Finalización: 2024</p>
+            </article>
+
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="contacto">
+            <h2>Conectemos</h2>
+
+            <p>
+                Estoy abierta a nuevas oportunidades laborales
+                y a conectar con profesionales del sector IT.
+            </p>
+
+            <a href="mailto:zoedominguez13@gmail.com">
+                Enviarme un correo
+            </a>
+
+            <a href="https://github.com/zoedom23"
+                target="_blank"
+                rel="noopener noreferrer">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/zoe-dom%C3%ADnguez-96b0602ab/"
+                target="_blank"
+                rel="noopener noreferrer">
+                LinkedIn
+            </a>
+
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
     <footer>
-        <p>© 2026 Zoe Dominguez</p>
+        <p>© 2026 Zoe Domínguez. Todos los derechos reservados.</p>
     </footer>
-</body>
 
+</body>
 </html>
