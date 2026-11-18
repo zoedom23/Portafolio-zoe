@@ -1,38 +1,129 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background-color: #f4f6f9;
-  color: #333;
+
+/* ==========================
+   CONFIGURACIÓN GENERAL
+========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: #e2e8f0;
+    line-height: 1.6;
+}
+
+/* ==========================
+   ENCABEZADO
+========================== */
 
 header {
-  background-color: #3b8;
-  color: white;
-  text-align: center;
-  padding: 40px 20px;
+    background: linear-gradient(135deg, #172554, #312e81);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
 }
 
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    color: #bfdbfe;
+}
+
+/* ==========================
+   SECCIONES
+========================== */
+
 section {
-  padding: 40px 20px;
-  max-width: 800px;
-  margin: auto;
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
 }
 
 h2 {
-  color: #222;
+    color: #93c5fd;
+    font-size: 28px;
+    margin-bottom: 20px;
 }
+
+/* ==========================
+   PROYECTOS
+========================== */
 
 .proyecto {
-  background: white;
-  padding: 20px;
-  margin: 15px 0;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #1e293b;
+    padding: 25px;
+    margin: 20px 0;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
+.proyecto:hover {
+    transform: translateY(-5px);
+    border-color: #60a5fa;
+}
+
+.proyecto h3 {
+    color: #60a5fa;
+    margin-bottom: 10px;
+}
+
+/* ==========================
+   CONTACTO
+========================== */
+
+.contacto p {
+    margin: 10px 0;
+}
+
+/* ==========================
+   PIE DE PÁGINA
+========================== */
+
 footer {
-  text-align: center;
-  padding: 20px;
-  background: #222;
-  color: white;
+    text-align: center;
+    padding: 25px;
+    background-color: #020617;
+    color: #94a3b8;
+    margin-top: 30px;
+}
+
+/* ==========================
+   RESPONSIVE DESIGN
+========================== */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 55px 15px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    section {
+        padding: 35px 18px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .proyecto {
+        padding: 20px;
+    }
 }
