@@ -1,18 +1,15 @@
-# 👩‍💻 Portafolio | Zoe Domínguez
+# 👩‍💻 Zoe Domínguez | Junior Frontend Developer
 
-¡Hola! Bienvenido/a a mi portfolio de desarrollo web.
+¡Hola! Soy Técnica en Programación y estoy orientando mi desarrollo profesional hacia el área **Frontend**.
 
-Soy **Zoe Domínguez, Técnica en Programación**, y este espacio reúne algunos de los proyectos que desarrollé durante mi formación y mi proceso de aprendizaje en programación.
+Me interesa crear aplicaciones web funcionales, intuitivas y responsive. Actualmente continúo fortaleciendo mis conocimientos en desarrollo web y explorando nuevas tecnologías.
 
-Mi objetivo es continuar desarrollando mis habilidades y crecer profesionalmente en el área de desarrollo de software.
+## 🚀 Sobre mí
 
-## 🙋‍♀️ Sobre mí
-
-Soy Técnica en Programación, interesada en el desarrollo web y las nuevas tecnologías.
-
-Actualmente estoy fortaleciendo mis conocimientos en desarrollo Frontend mediante la práctica y la creación de proyectos personales.
-
-Me interesa seguir aprendiendo, resolver problemas y desarrollar soluciones digitales.
+- 🎓 Técnica en Programación.
+- 💻 Conocimientos en HTML, CSS y JavaScript.
+- 🌱 En constante aprendizaje y crecimiento profesional.
+- 🎯 Busco mi primera oportunidad laboral en el área IT, especialmente en desarrollo Frontend.
 
 ## 🛠️ Tecnologías y herramientas
 
@@ -22,25 +19,25 @@ Me interesa seguir aprendiendo, resolver problemas y desarrollar soluciones digi
 - Git
 - GitHub
 
-## 🚀 Proyectos
+## 📂 Proyectos destacados
 
-Estos son algunos de los proyectos que forman parte de mi portfolio:
+| Proyecto | Descripción | Tecnologías |
+|---|---|---|
+| [Licuadora JS](https://github.com/zoedom23/LicuadoraJS) | Simulación interactiva de una licuadora. | HTML, CSS, JavaScript |
+| [Adivina el número](https://github.com/zoedom23/Juego-adivina-el-numero) | Juego para descubrir un número secreto. | HTML, CSS, JavaScript |
+| [Calculadora JS](https://github.com/zoedom23/Calculadora-JS) | Calculadora web con operaciones matemáticas. | HTML, CSS, JavaScript |
+| [To Do List](https://github.com/zoedom23/TO-DO-LIST) | Aplicación para gestionar tareas. | HTML, CSS, JavaScript |
 
-| Proyecto | Descripción |
-|---|---|
-| Portfolio personal | Página de presentación y muestra de proyectos. |
-| Calculadora JS | Calculadora desarrollada con JavaScript. |
-| To Do List | Aplicación de lista de tareas. |
-| Licuadora JS | Proyecto interactivo realizado con JavaScript. |
-| Adivina el número | Juego desarrollado como práctica de programación. |
+## 🌐 Portfolio
 
-## 🎯 Objetivo profesional
+[Visitar mi portfolio](https://zoedom23.github.io/Portafolio-zoe/)
 
-Continuar creciendo como desarrolladora web, fortalecer mis conocimientos técnicos y adquirir experiencia mediante nuevos desafíos y proyectos.
+## 📫 Contacto
 
-## 📬 Contacto
+- **LinkedIn:** [Mi perfil profesional](https://www.linkedin.com/in/zoe-dom%C3%ADnguez-96b0602ab/)
+- **GitHub:** [@zoedom23](https://github.com/zoedom23)
+- **Email:** zoedominguez13@gmail.com
 
-- **GitHub:** https://github.com/zoedom23
-- **LinkedIn:** https://www.linkedin.com/in/zoe-dom%C3%ADnguez-96b0602ab/
+---
 
-¡Gracias por visitar mi portfolio!
+*Gracias por visitar mi perfil.*
